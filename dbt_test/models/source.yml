@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: dbt_test_t67r
+    schema: public
+    tables:
+      - name: commodities
+        description: "Tabela que contém os dados de commodities"
+        columns:
+          - name: Date
+            description: "Data da cotação"
+          - name: Close
+            description: "Preço de fechamento"
+          - name: simbolo
+            description: "Símbolo da commodity"
