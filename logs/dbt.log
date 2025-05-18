@@ -1,0 +1,30 @@
+[0m23:25:16.147036 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x04D5C940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x05375AD8>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x064317A8>]}
+
+
+============================== 23:25:16.159511 | cadacde9-1ffa-4dfe-94a2-0220d36f1aa8 ==============================
+[0m23:25:16.159511 [info ] [MainThread]: Running with dbt=1.8.7
+[0m23:25:16.161252 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'invocation_command': 'dbt init', 'use_colors': 'True', 'partial_parse': 'True', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Cleobeto\\.dbt', 'cache_selected_only': 'False', 'fail_fast': 'False', 'log_cache_events': 'False', 'target_path': 'None', 'warn_error': 'None', 'debug': 'False', 'log_path': 'logs', 'log_format': 'default', 'static_parser': 'True', 'quiet': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'write_json': 'True', 'empty': 'None', 'introspect': 'True', 'indirect_selection': 'eager', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m23:25:16.205077 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse logging event dictionary. Failed to parse dir field: expected string or bytes-like object.. Dictionary: {'dir': WindowsPath('C:/Users/Cleobeto/.dbt')}
+[0m23:25:16.205077 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m23:26:34.432433 [debug] [MainThread]: Starter project path: C:\Users\Cleobeto\Documents\projetos\dbt_classes\.venv38\lib\site-packages\dbt\include\starter_project
+[0m23:26:34.553009 [info ] [MainThread]: 
+Your new dbt project "dbt_test" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m23:26:34.553009 [info ] [MainThread]: Setting up your profile.
+[0m23:28:15.792498 [info ] [MainThread]: Profile dbt_test written to C:\Users\Cleobeto\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m23:28:15.792498 [debug] [MainThread]: Command `dbt init` succeeded at 23:28:15.792498 after 179.73 seconds
+[0m23:28:15.797330 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x04D5C940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x064C2C70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x064EB6A0>]}
+[0m23:28:15.799152 [debug] [MainThread]: Flushing usage events

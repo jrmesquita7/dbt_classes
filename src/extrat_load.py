@@ -48,10 +48,3 @@ if __name__ == '__main__':
     print(dados_concatenados)
     salvar_dados_no_banco(dados_concatenados, schema='public')
 
-    
-
-# coletar cotacao de ativos
-
-# concatenar os tivos 
-
-# salvar no banco 
