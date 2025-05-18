@@ -13,3 +13,15 @@ sources:
             description: "Preço de fechamento"
           - name: simbolo
             description: "Símbolo da commodity"
+
+      - name: movimentacao_commodities
+        description: "Tabela de movimentações de compra e venda de commodities"
+        columns:
+          - name: date
+            description: "Data da movimentação"
+          - name: symbol
+            description: "Símbolo da commodity"
+          - name: action
+            description: "Tipo de movimentação (compra ou venda)"
+          - name: quantity
+            description: "Quantidade movimentada"
